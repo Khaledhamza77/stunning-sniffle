@@ -1,0 +1,80 @@
+# Pinned from uv.lock. Regenerate with:
+#   uv export --format requirements-txt --no-hashes --no-dev -o requirements.txt
+#   then strip uv's indented '# via' provenance comments, and re-add the line below:
+#   torch's CUDA builds are not on PyPI and uv export does not emit the index it
+#   resolved them from, so pip install would fail without it.
+--extra-index-url https://download.pytorch.org/whl/cu130
+
+anyio==4.14.2
+certifi==2026.7.22
+charset-normalizer==3.5.1
+colorama==0.4.6 ; sys_platform == 'win32'
+contourpy==1.3.3
+cuda-bindings==13.3.1 ; python_full_version < '3.15' and sys_platform == 'linux'
+cuda-pathfinder==1.6.0 ; python_full_version < '3.15' and sys_platform == 'linux'
+cuda-toolkit==13.0.3.0 ; sys_platform == 'linux'
+cycler==0.12.1
+filelock==3.32.3
+fonttools==4.63.0
+fsspec==2026.7.0
+h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
+idna==3.18
+imageio==2.37.4
+imageio-ffmpeg==0.6.0
+jinja2==3.1.6
+kagglehub==1.0.2
+kagglesdk==0.1.37
+kiwisolver==1.5.0
+lap==0.5.13
+markupsafe==3.0.3
+matplotlib==3.11.1
+mpmath==1.3.0
+networkx==3.6.1
+numpy==2.4.6 ; python_full_version < '3.12'
+numpy==2.5.2 ; python_full_version >= '3.12'
+nvidia-cublas==13.1.1.3 ; sys_platform == 'linux'
+nvidia-cuda-cupti==13.0.85 ; (platform_machine == 'aarch64' and sys_platform == 'linux') or (platform_machine == 'x86_64' and sys_platform == 'linux')
+nvidia-cuda-nvrtc==13.0.88 ; sys_platform == 'linux'
+nvidia-cuda-runtime==13.0.96 ; (platform_machine == 'aarch64' and sys_platform == 'linux') or (platform_machine == 'x86_64' and sys_platform == 'linux')
+nvidia-cudnn-cu13==9.20.0.48 ; sys_platform == 'linux'
+nvidia-cufft==12.0.0.61 ; (platform_machine == 'aarch64' and sys_platform == 'linux') or (platform_machine == 'x86_64' and sys_platform == 'linux')
+nvidia-cufile==1.15.1.6 ; (platform_machine == 'aarch64' and sys_platform == 'linux') or (platform_machine == 'x86_64' and sys_platform == 'linux')
+nvidia-curand==10.4.0.35 ; (platform_machine == 'aarch64' and sys_platform == 'linux') or (platform_machine == 'x86_64' and sys_platform == 'linux')
+nvidia-cusolver==12.0.4.66 ; (platform_machine == 'aarch64' and sys_platform == 'linux') or (platform_machine == 'x86_64' and sys_platform == 'linux')
+nvidia-cusparse==12.6.3.3 ; (platform_machine == 'aarch64' and sys_platform == 'linux') or (platform_machine == 'x86_64' and sys_platform == 'linux')
+nvidia-cusparselt-cu13==0.8.1 ; sys_platform == 'linux'
+nvidia-ml-py==13.610.43
+nvidia-nccl-cu13==2.29.7 ; sys_platform == 'linux'
+nvidia-nvjitlink==13.3.33 ; (platform_machine == 'aarch64' and sys_platform == 'linux') or (platform_machine == 'x86_64' and sys_platform == 'linux')
+nvidia-nvshmem-cu13==3.4.5 ; sys_platform == 'linux'
+nvidia-nvtx==13.0.85 ; (platform_machine == 'aarch64' and sys_platform == 'linux') or (platform_machine == 'x86_64' and sys_platform == 'linux')
+opencv-python==5.0.0.93
+packaging==26.3
+pandas==3.0.5
+pillow==12.3.0
+polars==1.43.2
+polars-runtime-32==1.43.2
+protobuf==7.35.1
+psutil==7.2.2
+pyparsing==3.3.2
+python-dateutil==2.9.0.post0
+pyyaml==6.0.3
+requests==2.34.2
+scipy==1.17.1 ; python_full_version < '3.12'
+scipy==1.18.0 ; python_full_version >= '3.12'
+setuptools==84.0.0
+shapely==2.1.2
+six==1.17.0
+sympy==1.14.0
+torch==2.13.0+cu130
+torchvision==0.28.0+cu130
+tqdm==4.70.0
+triton==3.7.1 ; python_full_version < '3.15' and sys_platform == 'linux'
+typing-extensions==4.16.0
+tzdata==2026.3 ; sys_platform == 'emscripten' or sys_platform == 'win32'
+ultralytics==8.4.120
+ultralytics-platform==0.1.5
+ultralytics-thop==2.1.6
+urllib3==2.7.0

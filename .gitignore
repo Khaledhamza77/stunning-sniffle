@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Personal
+docs/
+
+# Traffic flow analysis project
+data/
+
+# Generated outputs: every file here is reproducible by running the scripts
+outputs/
+
+# YOLO weights: auto-downloaded by ultralytics on first run
+*.pt
+
+# Packaged outputs for submission
+*.zip
