@@ -3,7 +3,7 @@
 Detects, tracks and measures vehicles in highway camera footage, then classifies how
 congested each clip is — and scores that classification against ground truth.
 
-**Live demo:** Open index.html in the output of the pipeline after running scripts/analyze_traffic.py
+**Live demo:** Open index.html in the output of the pipeline after running scripts/analyze_traffic.py and render_demo.py
 
 | | |
 |---|---|
